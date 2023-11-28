@@ -1,4 +1,4 @@
-import foods from "../../assets/pix5.jpg"
+import foods from "../../assets/pix12.png"
 
 const Image = () =>
 {

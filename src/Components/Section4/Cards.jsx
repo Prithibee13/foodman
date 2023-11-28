@@ -14,16 +14,26 @@ const Cards = () => {
 
                     <h4 className="mt-3 mb-3">Order Your Food</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam facilis tempora deleniti consequatur maiores voluptatibus accusantium.</p>
-                    <a>Read More</a>
+                    <a className="read-tag d-flex align-items-center gap-2 ">
+                        <span>Read More</span>
+                        <span>
+                            <i class="fa-solid fa-right-long"></i>
+                        </span>
+                    </a>
                 </div>
-                <div className="col shadow-lg p-4 rounded">
+                <div className="col shadow-lg p-4 rounded service">
 
                     <div className="p-3 shadow-lg w-25 text-center rounded" style={{ backgroundColor: "#FF9209" }}>
                         <span className="text-white"> <i class="fa-solid fa-truck-pickup fa-2x"></i></span>
                     </div>
                     <h4 className="mt-3 mb-3">Pickup Your Food</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt laudantium cumque aut voluptatibus. Officia, maxime dolorum.</p>
-                    <a>Read More</a>
+                    <a className="read-tag d-flex align-items-center gap-2">
+                        <span>Read More</span>
+                        <span>
+                            <i class="fa-solid fa-right-long"></i>
+                        </span>
+                    </a>
                 </div>
                 <div className="col shadow-lg p-4 rounded">
                     <div className="p-3 shadow-lg w-25 text-center rounded" style={{ backgroundColor: "#3CCF4E" }}>
@@ -34,7 +44,12 @@ const Cards = () => {
                     </div>
                     <h4 className="mt-3 mb-3">Enjoy Your Food</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt explicabo expedita facere aperiam quibusdam optio iste distinctio.</p>
-                    <a>Read More</a>
+                    <a className="read-tag d-flex align-items-center gap-2">
+                        <span>Read More</span>
+                        <span>
+                            <i class="fa-solid fa-right-long"></i>
+                        </span>
+                    </a>
                 </div>
             </div>
 

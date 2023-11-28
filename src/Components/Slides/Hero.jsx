@@ -1,7 +1,7 @@
 const Hero = () =>
 {
     return(
-        <div className="px-4 py-5 text-center">
+        <div className=" text-center">
         <h2 className="mt-4 mb-3">What Our Customer Are Saying</h2>
 
         <div className="col-lg-8 mx-auto middleText">

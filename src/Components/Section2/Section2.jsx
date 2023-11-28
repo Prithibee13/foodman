@@ -3,7 +3,7 @@ import Text from "./Text"
 
 const Section2 = () => {
     return (
-        <section className="container mt-5 mb-5">
+        <section className="container  section-1">
             <article className="row flex-row-reverse align-items-center g-5">
                 <div className="col-6">
                     <Text></Text>

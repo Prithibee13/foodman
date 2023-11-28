@@ -8,11 +8,17 @@ const Card1 = () => {
                 <h4>Chicken Veg Mix</h4>
                 <div className="card-body">
                     <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga hic voluptatibus suscipit!</p>
+                    <span style={{color : '#FFB100'}}><i class="fa-solid fa-star"></i></span>
+                    <span style={{color : '#FFB100'}}><i class="fa-solid fa-star"></i></span>
+                    <span style={{color : '#FFB100'}}><i class="fa-solid fa-star"></i></span>
+                    <span style={{color : '#FFB100'}}><i class="fa-solid fa-star"></i></span>
+                    <span style={{color : '#FFB100'}}><i class="fa-solid fa-star"></i></span>
+                    <sup>[29]</sup>
                 </div>
 
                 <div className="d-flex justify-content-center align-items-center">
                     <h5 className="me-3">$15.50</h5>
-                    <button className="cardBtn btn rounded-pill">Add to cart</button>
+                    <button className="cardBtn btn rounded-pill p-3">Add to cart</button>
                 </div>
             </div>
         </div>
